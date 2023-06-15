@@ -1,7 +1,3 @@
-//
-// Created by Maksymilian Głowacki on 13/11/2022.
-//
-
 #include "getperiod.h"
 
 double astroshell::getPeriod(Eigen::Array<double, -1, 4> &phot, std::vector<unsigned long> &indices)

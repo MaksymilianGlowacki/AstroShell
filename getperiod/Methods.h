@@ -1,8 +1,5 @@
-//
-// Created by Maksymilian Głowacki on 22/10/2022.
-//
 #include <vector>
-#include <eigen/Eigen/Eigen>
+#include <Eigen/Eigen>
 #include <numeric>
 #include <algorithm>
 #include <astroshell/phase/phase.h>

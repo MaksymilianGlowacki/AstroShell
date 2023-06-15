@@ -1,7 +1,3 @@
-//
-// Created by Maksymilian Głowacki on 22/10/2022.
-//
-
 #include "Methods.h"
 
 void astroshell::getSLM(Eigen::Array<double, -1, 4> &phot, std::vector<unsigned long> &indices,

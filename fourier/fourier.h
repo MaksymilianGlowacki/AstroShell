@@ -1,8 +1,8 @@
 #include <vector>
 #include <numeric>
-#include <functional>
-#include <eigen/Eigen/Eigen>
+#include <Eigen/Eigen>
 #include <iostream>
+#include <cmath>
 
 #ifndef ASTROSHELL_FOURIER_H
 #define ASTROSHELL_FOURIER_H

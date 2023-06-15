@@ -1,6 +1,3 @@
-//
-// Created by Maksymilian Głowacki on 13/11/2022.
-//
 #include "Methods.h"
 
 #ifndef ASTROSHELL_GETPERIOD_H

@@ -1,7 +1,3 @@
-//
-// Created by Maksymilian Głowacki on 21/10/2022.
-//
-
 #include "phase.h"
 
 void astroshell::phase(Eigen::Array<double, -1, 4> &phot, std::vector<unsigned long> &indices, double frequency)

@@ -1,11 +1,8 @@
-//
-// Created by Maksymilian Głowacki on 21/10/2022.
-//
 #include <vector>
 #include <algorithm>
 #include <numeric>
 #include <iostream>
-#include <eigen/Eigen/Eigen>
+#include <Eigen/Eigen>
 
 #ifndef ASTROSHELL_FUNCTIONS_H
 #define ASTROSHELL_FUNCTIONS_H
