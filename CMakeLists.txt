@@ -3,7 +3,7 @@ project(AstroShell)
 
 set(CMAKE_CXX_STANDARD 17)
 
-set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_SOURCE_DIR}/bin/")
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/bin)
 set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
 
@@ -15,9 +15,9 @@ elseif(MSVC)
     add_compile_definitions(_USE_MATH_DEFINES)
     set(CMAKE_PREFIX_PATH "C:/Programming/Eigen/install/share/eigen3/cmake")
     find_package(Eigen3)
-    set(INCLUDE_DIR "C:/Users/Maks/CLionProjects")
+    set(INCLUDE_DIR "C:/Users/Maks/CLionProjects/")
     include_directories(${INCLUDE_DIR} ${EIGEN3_INCLUDE_DIRS})
-    add_compile_options(/O2 /std:c++17 /arch:AVX /arch:AVX512)
+    add_compile_options(/O2 /std:c++17 /arch:AVX /arch:AVX512 /DNDEBUG)
 endif()
 
 add_executable(AstroShell main.cpp)

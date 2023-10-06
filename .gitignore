@@ -1,3 +1,4 @@
 /.idea
 cmake-build-release
 bin
+cmake-build-release-leda

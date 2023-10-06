@@ -31,7 +31,7 @@ Eigen::Array<double, -1, 3> astroshell::merge(const Eigen::Array<double, -1, 3>&
     }
     Eigen::Array<double, -1, 3> result(phot1.rows() + (phot2.rows() - j - 1), 3);
     result << phot1, phot2(Eigen::seq(j + 1, Eigen::last), Eigen::all);
-    result(Eigen::seq(phot1.rows(), Eigen::last), 1) += 1000;
+    result(Eigen::seq(phot1.rows(), Eigen::last), 1) += vals[0];
     return result;
 }
 

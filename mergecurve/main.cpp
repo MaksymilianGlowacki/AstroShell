@@ -1,6 +1,5 @@
 #include <fstream>
 #include <iostream>
-#include <iomanip>
 #include <tools/InputParser.h>
 #include "mergecurve.h"
 
